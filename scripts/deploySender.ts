@@ -16,7 +16,7 @@ async function main() {
 
   await ccipSender.deployed();
 
-  console.log(`CCIPSender_Unsafe deployed to ${ccipSender.address}`);
+  console.log(`MyCCIPSender deployed to ${ccipSender.address}`);
 }
 
 main().catch((error) => {
